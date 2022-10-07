@@ -40,3 +40,23 @@ Import the route in the `app.ts` file. Like,
 Then Call the route in the `app.ts` file. Like,
 
 `app.use("/api/v1/test", testRoute) `
+<br/><br/>
+
+> ## Preview (Large)
+<br/>
+
+![preview img](./public/preview.png)
+
+<br/>
+
+> ## Preview (Tablet)
+<br/>
+
+![preview img](./public/preview2.png)
+
+<br/>
+
+> ## Preview (Mobile)
+<br/>
+
+![preview img](./public/preview3.png)
