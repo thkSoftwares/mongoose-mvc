@@ -19,6 +19,7 @@ git clone https://github.com/THK-S-SOFTWARE/mongoose-mvc.git
 - Run `yarn dev` to start the server
 - Run `yarn build` to build the project
 - Run `yarn start` to start the project
+- Open the browser and go to `localhost:8000`
 
 > Features
 > Just install the dependencies and you are good to go.
