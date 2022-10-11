@@ -7,7 +7,7 @@ const port: string | number = process.env.PORT || 8000;
 const startServer = async (): Promise<void> => {
   try {
     app.listen(port, () => {
-      console.log(colors.green.bold.italic(`Server is running on port ${port}`));
+      console.log(colors.yellow.bold.italic(`Server is running on port ${port}`));
       dbConnect();
     });
   } catch (error) {
