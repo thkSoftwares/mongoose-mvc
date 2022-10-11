@@ -5,7 +5,7 @@
 - Clone the repo
 
 ```bash
-git clone https://github.com/THK-S-SOFTWARE/mongoose-mvc.git
+git clone https://github.com/thkSoftwares/mongoose-starter.git
 ```
 
 > Dependencies
@@ -45,18 +45,21 @@ Then Call the route in the `app.ts` file. Like,
 > ## Preview (Large)
 <br/>
 
-![preview img](./public/preview.png)
+![preview img](./views/preview.png)
 
 <br/>
 
 > ## Preview (Tablet)
 <br/>
 
-![preview img](./public/preview2.png)
+![preview img](./views/preview2.png)
 
 <br/>
 
 > ## Preview (Mobile)
 <br/>
 
-![preview img](./public/preview3.png)
+![preview img](./views/preview3.png)
+
+
+> Template Created by Nahid Hassan Bulbul [0nahid](https://github.com/0nahid)
