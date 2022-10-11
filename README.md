@@ -62,4 +62,4 @@ Then Call the route in the `app.ts` file. Like,
 ![preview img](./views/preview3.png)
 
 
-> Template Created by Nahid Hassan Bulbul [0nahid](https://github.com/0nahid)
+> ## This template initially created by `Nahid Hassan Bulbul` ([0nahid](https://github.com/0nahid))
