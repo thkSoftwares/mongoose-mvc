@@ -1,12 +1,14 @@
+import { MongoClient } from "mongodb";
 import colors from "colors";
-import mongoose from "mongoose";
-const MONGO_URL = process.env.MONGO_URI || "";
+const uri = process.env.MONGO_URI as string;
+
 const dbConnect = async (): Promise<void> => {
   try {
-    await mongoose.connect(MONGO_URL);
-    console.log(colors.green.italic(`Database connection is successful 🛢`));
+    const client = await MongoClient.connect(uri);
+    console.log(colors.yellow.bold.italic(`Connected to MongoDB`));
   } catch (error) {
-    console.log(colors.italic.red((`Database connection error: ${error}`)));
+    console.log(colors.yellow.bold.italic(`Error connecting to MongoDB: ", ${error}`));
   }
-};
+}
+
 export default dbConnect;
